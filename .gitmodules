@@ -1,0 +1,3 @@
+[submodule "qgit2"]
+	path = qgit2
+	url = git://anongit.kde.org/libqgit2

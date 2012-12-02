@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 2.8)
 
 project(git-tree-graph)
 
+add_subdirectory(qgit2)
+
 find_package(Qt4 4.8.3 REQUIRED QtCore QtGui)
 
 set(git-tree-graph_sources main.cpp treegraphwindow.cpp)
