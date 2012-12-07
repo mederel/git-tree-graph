@@ -1,5 +1,6 @@
-#include <cstdlib>
+#include "treegraphwindow.h"
 
 int main(int argc, char** argv) {
-	exit(0);
+	TreeGraphWindow app(argc, argv);
+	return app.exec;
 }
