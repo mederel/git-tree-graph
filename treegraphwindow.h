@@ -5,7 +5,7 @@
 
 class TreeGraphWindow: public QApplication {
 	public:
-	TreeGraphWindow(int argc, char** argv) {};
-}
+	TreeGraphWindow(int argc, char** argv): QApplication(argc, argv) {};
+};
 
 #endif

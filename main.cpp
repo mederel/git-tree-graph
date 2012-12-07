@@ -2,5 +2,5 @@
 
 int main(int argc, char** argv) {
 	TreeGraphWindow app(argc, argv);
-	return app.exec;
+	return app.exec();
 }
